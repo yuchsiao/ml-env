@@ -1,6 +1,6 @@
 # AWS Operations
 
-# Mount EBS
+# [Mount EBS](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html)
 
 Print volume devices
 
@@ -32,4 +32,9 @@ Mount the volume
 mount device_name mount_point
 ```
 
+Backup `fstab`
+
+```
+cp /etc/fstab /etc/fstab.orig
+```
 
